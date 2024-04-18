@@ -1,0 +1,17 @@
+#+hugo_base_dir: ../
+
+* DONE My first post                                        :tag1:@category1:
+CLOSED: [2024-03-30 Sat 22:27]
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-first-post
+:END:
+This is my post body and this is updated automatically. We are using hugo org-mode
+
+
+* Footnotes
+* COMMENT Local Variables                          :ARCHIVE:
+# Local Variables:
+# eval: (org-hugo-auto-export-mode)
+# End:
+
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title></title>
+    <link>https://example.com/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Jérémie Juste (CC BY 4.0)</copyright>
+    <lastBuildDate>Sat, 30 Mar 2024 22:27:00 +0100</lastBuildDate>
+    <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My first post</title>
+      <link>https://example.com/posts/my-first-post/</link>
+      <pubDate>Sat, 30 Mar 2024 22:27:00 +0100</pubDate>
+      <guid>https://example.com/posts/my-first-post/</guid>
+      <description>This is my post body and this is updated automatically. We are using hugo org-mode</description>
+      <content:encoded><![CDATA[<p>This is my post body and this is updated automatically. We are using hugo org-mode</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.com/posts/all-posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/all-posts/</guid>
+      <description>DONE My first post tag1@category1 This is my post body and this is updated automatically</description>
+      <content:encoded><![CDATA[<h2 id="my-first-post"><span class="org-todo done DONE">DONE</span> My first post <span class="tag"><span class="tag1">tag1</span><span class="_category1">@category1</span></span></h2>
+<p>This is my post body and this is updated automatically</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

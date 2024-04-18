@@ -1,0 +1,54 @@
+# Basic config
+baseURL = "https://example.com"
+copyright = "Jérémie Juste (CC BY 4.0)"
+defaultContentLanguage = "en"
+
+
+[module]
+  [[module.imports]]
+    path = "github.com/clente/hugo-bearcub"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "repository"
+    name = "Repository"
+    url = "/repository/"
+    weight = 12
+
+  [[menu.main]]
+    identifier = "snippets"
+    name = "Snippets"
+    url = "/snippets/"
+    weight = 11
+
+
+  [[menu.secondary]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+  [[menu.secondary]]
+    identifier= "rss"
+    url = "index.xml"
+    name = " Rss"
+    title = "Rss feeds"
+    weight = 12
+
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-us"
+    weight = 1
